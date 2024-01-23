@@ -5,7 +5,9 @@ int main(void){
     scanf("%d",&a);
     printf("Enter the value of b :\n",b);
     scanf("%d",&b);
+
     c = a & b;
+    
     printf("Bitwise AND operation of a and b is : %d\n",c);
     return 0;
 
