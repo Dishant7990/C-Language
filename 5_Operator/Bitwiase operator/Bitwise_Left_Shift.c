@@ -11,7 +11,7 @@ int main(void){
 
     c = a << i;
     
-    printf("Bitwise NOT operation of a is : %d\n",c);
+    printf("Bitwise Left Shifting operation of a is : %d\n",c);
     return 0;
 
 }

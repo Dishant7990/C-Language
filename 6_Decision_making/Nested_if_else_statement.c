@@ -3,11 +3,14 @@
 int main() {
     int x = 0;
 
-    if (x > 0) {
+    if (x > 0)
+    {
         printf("The number is positive.\n");
-    } else if (x < 0) {
+    } 
+    else if (x < 0) {
         printf("The number is negative.\n");
-    } else {
+    } 
+    else {
         printf("The number is zero.\n");
     }
 

@@ -20,3 +20,15 @@ int main(void){
     printf("After XOR, a = %d and b = %d",a,b);
     return 0;
 }*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char a = 7;
+    a ^= 5;
+    printf("%d", printf("%d", (a += 3)));
+
+    return 0;
+}
+*/

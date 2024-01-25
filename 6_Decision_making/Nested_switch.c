@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int category = 67;
+    int category = 2;
     int subCategory = 2;
 
     switch (category) {
