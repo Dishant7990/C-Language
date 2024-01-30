@@ -1,4 +1,3 @@
-// By using for loop reverse the number
 #include <stdio.h>
 
 int main() {
