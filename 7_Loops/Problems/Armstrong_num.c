@@ -5,7 +5,7 @@ int main(void){
     printf("Enter the number\n");
     scanf("%d", &n);
     int q = n;
-
+//STEP 1 : Calculate each digit of number 
     while(q != 0){
         q = q/10;
         count++;
