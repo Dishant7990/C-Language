@@ -19,7 +19,8 @@ int main(void){
     char str[] = "Hello I am Dishant";
     char substr[] = "am";
     char *result = strstr(str, substr);
-    printf("Result of strstr is : %ld\n", *result);
+    printf("Result of strstr is : %ld\n", result);
+    printf("str is : %ld\n", str);
     if(result != NULL){
         printf("'%s' found at index %ld in '%s'\n", substr, result - str, str);
     }
