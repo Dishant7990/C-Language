@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
     enum var {x=5, y=21,  z, a=22};
     int main() {
 
