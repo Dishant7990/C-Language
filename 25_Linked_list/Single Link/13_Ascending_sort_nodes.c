@@ -25,6 +25,7 @@ void printing_nodes(struct node *head){
         printf("Linked List is empty...!!\n");
         return; // Add return statement here
     }
+    
     struct node *ptr = head;
     int j = 1;
     while (ptr != NULL)
