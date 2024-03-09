@@ -1,6 +1,7 @@
 #include<stdio.h>
 char *strstr(char* str, char* substr){
-    if(*substr == '\0')  return (char*) str;
+    if(*substr == '\0')  
+        return (char*) str;
     while(*str != '\0'){
         const char *s1 = str;
         const char *s2 = substr;
