@@ -13,6 +13,7 @@ int main(void){
     head->data = 45;
     head->link = NULL;
 
-    printf("%d\n", head->data);    
+    printf("%d\n", head->data);
+    free(head);    
     return 0;
 }

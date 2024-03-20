@@ -36,7 +36,8 @@ int main(void){
     scanf("%d", &x);
     printf("Enter Y value:\n", y);
     scanf("%d", &y);
-     printf("Enter the Operator (0 for sum, 1 for sub, 2 for mul, 3 for div): ");
+    
+    printf("Enter the Operator (0 for sum, 1 for sub, 2 for mul, 3 for div): ");
     scanf("%d", &op);
 
    if(op<0 || op>3){
