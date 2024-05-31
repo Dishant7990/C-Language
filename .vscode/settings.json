@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "2_single_linked_list": "c"
+        "2_single_linked_list": "c",
+        "stdio.h": "c"
     }
 }

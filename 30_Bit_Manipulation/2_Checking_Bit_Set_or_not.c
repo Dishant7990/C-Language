@@ -34,7 +34,7 @@ void is_Kth_bitset(uint8_t n, uint8_t k){
 int main(void){
 
     uint8_t num, k;
-
+    // unsigned 8 bit = 0 to 255 numbers we can check
     while(1){
         printf("Enter the Number :\n");
         scanf("%hhu", &num);
